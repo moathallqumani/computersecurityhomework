@@ -1,0 +1,36 @@
+p {
+    background: rgb(199, 199, 243);
+    font-size: 30dp;
+}
+
+div::content {
+    align-self: center;
+    border: 3ch;
+    border-color: red;
+    color: aqua
+}
+
+body {
+    background-color: rgb(223, 241, 241);
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+body::content {
+    border-color: rgb(15, 14, 14);
+}
+
+form {
+    border: solid rgb(12, 11, 11) 1px;
+    display: inline-block;
+}
+
+table {
+    text-align: center;
+    border: solid red 1px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
